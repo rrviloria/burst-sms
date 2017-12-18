@@ -1,4 +1,3 @@
-**Checking / Installing**
 Check if node is already installed:
 	```
         node --version
