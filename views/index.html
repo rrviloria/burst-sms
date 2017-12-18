@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>
+		
+	</title>
+	{% block headCss %}
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+	{% endblock %}
+	{% block headScripts %}
+		<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js">
+		</script>
+		<script src="/node_modules/babel-standalone/babel.min.js"></script>
+		<script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js">
+		</script>
+		<script src="/node_modules/react/dist/react.js"></script>
+		<script src="/node_modules/react-dom/dist/react-dom.js"></script>
+		<script type="text/babel" src="/static/js/SendSMS.js">
+		</script>
+    {% endblock %}
+    {% block funcScripts %}
+
+    {% endblock %}
+</head>
+	<body style="background-color: #F7F7F7;">
+		<div class="container">
+			<div id="sendSMSForm"></div>
+		</div>
+	</body>
+
+</html>
+
+
